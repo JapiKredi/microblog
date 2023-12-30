@@ -18,3 +18,20 @@
 .navbar__logo {
         margin-right: 30px;
 }
+
+.navbar__navigation {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        color: #5c6b70;
+    }
+
+.navbar__navigation-item {
+        margin-right: 50px;
+    }   
+
+.navbar__link {
+    text-decoration: none;
+    color: inherit;
+}
