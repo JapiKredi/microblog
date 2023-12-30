@@ -1,6 +1,10 @@
+html {
+    font-family: 'lato', 'sans-serif';
+}
+
 .navbar {
     max-width: 640px;
-    margin: 40px auto;
+    margin: 50px auto;
     padding: 0 20px;
     display: flex;
     flex-direction: row;
@@ -9,29 +13,33 @@
 }
 
 .navbar__brand {
-    {
-        display: flex;
-        align-items: center;
-    }
+    display: flex;
+    align-items: center;
 }
 
 .navbar__logo {
-        margin-right: 30px;
+    margin-right: 30px;
 }
 
 .navbar__navigation {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        color: #5c6b70;
-    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    color: #5C6B70;
+}
 
 .navbar__navigation-item {
-        margin-right: 50px;
-    }   
+    margin-left: 50px;
+}
 
 .navbar__link {
     text-decoration: none;
     color: inherit;
+}
+
+.main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
