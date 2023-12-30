@@ -2,6 +2,9 @@ html {
     font-family: 'lato', 'sans-serif';
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 .navbar {
     max-width: 640px;
     margin: 50px auto;
@@ -42,4 +45,26 @@ html {
     max-width: 640px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form__input {
+    width: 100%;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.form__textarea {
+    width: inherit;
+    font-size: 18px;
+    padding: 12px 20px;
 }
